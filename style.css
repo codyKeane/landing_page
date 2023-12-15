@@ -1,9 +1,15 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 .header {
     background: #1f2937;
     font-family: Besley, serif;
     color: antiquewhite;
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-around;
+    padding: 20px;   
 }
 
 ul {
@@ -14,8 +20,64 @@ ul {
     gap: 16px;
   }
 
-  .topcard {
+.title {
+    background: #1f2937;
+    font-family: Besley, serif;
+    color: antiquewhite;
+    padding: 65px;
+    width: 225px;
+
+}
+
+.topcard {
     display: flex;
     flex-direction: column;
     
-  }
+}
+
+.title-holder {
+    display: flex;
+    justify-content: space-around;
+    background: #1f2937;
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.header-image {
+    width: 350px;
+    height: 125px;
+    margin: auto;
+}
+
+.midcard {
+    display: flex;
+    flex-direction: column;
+}
+
+.header2 {
+    text-align: center;
+}
+
+.styled-image {
+    max-width: 15%;
+    border: 2px solid #d1e427;
+    border-radius: 8px;
+}
+
+.picbox {
+    display: flex;
+    justify-content: space-around;
+}
