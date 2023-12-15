@@ -1,26 +1,28 @@
 body {
     background-image: url('images/img3.jpg');
-    
     margin: 0px;
     padding: 0px;
 }
 
 
 .header {
-    background: #1f2937;
-    
+    background: #484e57b9;
     font-family: Besley, serif;
     color: antiquewhite;
     display: flex;
     justify-content: space-between;
-    padding: 20px;  
+    padding: 0px;  
+    margin-bottom: 10px;
     
 }
 
+.header-button {
+    padding: 5px;
+    margin: 25px;
+}
+
 .logo {
-    border: 3px solid red;
-    margin-left: 45px;
-    
+    margin-left: 45px;   
 }
 
 ul {
@@ -29,35 +31,31 @@ ul {
     margin: 0px;
     padding: 5px;
     gap: 16px;
-    border: 3px solid red;
   }
 
 .title {
-    
     font-family: Besley, serif;
     color: antiquewhite;
-    padding: 65px;
-    width: 225px;
-    border: 3px solid red;
-
+    padding: 15px;
+    margin-left: 25px;
+    width: 300px;
 }
 
 .topcard {
     display: flex;
     flex-direction: column;
-    
-    
 }
 
 .title-holder {
     display: flex;
     justify-content: space-around;
-    background: #1f2937;
+    background: #1f2937c9;
 }
 
 p {
     color: #e5e7eb;
     font-size: 18px;
+    
 }
 
 .signup {
@@ -84,6 +82,11 @@ p {
 
 .header2 {
     text-align: center;
+    background-color: #f4f8c08a;
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 25px;
 }
 
 .styled-image {
@@ -102,12 +105,13 @@ p {
 }
 
 .image-wrapper {
-    
     text-align: center;
 }
 
+
+
 .image-caption {
-    margin-top: 45px;
+    margin-top: 20px;
     font-size: 14px;
     color: #1b1a1a;
 }
@@ -136,6 +140,7 @@ p {
 }
 
 .fourthcard {
+    
     display: flex;
     justify-content: space-around;
     background-color: #3882f6;
