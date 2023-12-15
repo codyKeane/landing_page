@@ -1,4 +1,5 @@
 body {
+    
     margin: 0px;
     padding: 0px;
 }
@@ -49,6 +50,7 @@ p {
 .signup {
     background-color: #3882f6;
     color: white;
+    border-color: white;
     border-radius: 10px;
     padding: 5px 10px;
     font-weight: bold;
@@ -72,12 +74,66 @@ p {
 }
 
 .styled-image {
-    max-width: 15%;
+    max-width: 65%;
     border: 2px solid #d1e427;
     border-radius: 8px;
+}
+
+.styled-image:hover {
+    transform: scale(1.2);
 }
 
 .picbox {
     display: flex;
     justify-content: space-around;
+}
+
+.image-wrapper {
+    text-align: center;
+}
+
+.image-caption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+.thirdcard {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: rgb(82, 73, 73);
+}
+
+.name {
+    font-size: 16px;
+    font-style: bold;
+    color: darkblue;
+}
+
+.fourthcard {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    margin: 75px;
+    
+}
+
+.actiontext {
+    font-size: 10px;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 25px;
+
 }
