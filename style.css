@@ -6,7 +6,7 @@ body {
 
 
 .header {
-    background: #484e57b9;
+    background-color: #1f2937;
     font-family: Besley, serif;
     color: antiquewhite;
     display: flex;
@@ -93,6 +93,7 @@ p {
     max-width: 65%;
     border: 2px solid #d1e427;
     border-radius: 8px;
+    margin-top: 20px;
 }
 
 .styled-image:hover {
@@ -105,7 +106,9 @@ p {
 }
 
 .image-wrapper {
+    margin-top: 20px;
     text-align: center;
+    background-color: #020202cc;
 }
 
 
@@ -113,7 +116,7 @@ p {
 .image-caption {
     margin-top: 20px;
     font-size: 14px;
-    color: #1b1a1a;
+    color: #f8f8f8;
 }
 
 .thirdcard {
@@ -142,14 +145,19 @@ p {
 .fourthcard {
     
     display: flex;
-    justify-content: space-around;
-    background-color: #3882f6;
+    justify-content: space-between;
+    background-color: #f0f0f0a9;
     margin: 75px;
     
 }
 
+.actioncall {
+    margin: auto;
+}
+
 .actiontext {
-    font-size: 10px;
+    font-size: 15px;
+    color: #1f2937;
 }
 
 .footer {
@@ -158,5 +166,16 @@ p {
     background-color: #1f2937;
     color: white;
     padding: 25px;
+}
 
+.action-button {
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
+    
 }
