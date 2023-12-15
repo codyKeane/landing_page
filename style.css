@@ -1,38 +1,51 @@
 body {
+    background-image: url('images/img3.jpg');
     
     margin: 0px;
     padding: 0px;
 }
 
+
 .header {
     background: #1f2937;
+    
     font-family: Besley, serif;
     color: antiquewhite;
     display: flex;
-    justify-content: space-around;
-    padding: 20px;   
+    justify-content: space-between;
+    padding: 20px;  
+    
+}
+
+.logo {
+    border: 3px solid red;
+    margin-left: 45px;
+    
 }
 
 ul {
     list-style-type: none;
     display: flex;
     margin: 0px;
-    padding: 0px;
+    padding: 5px;
     gap: 16px;
+    border: 3px solid red;
   }
 
 .title {
-    background: #1f2937;
+    
     font-family: Besley, serif;
     color: antiquewhite;
     padding: 65px;
     width: 225px;
+    border: 3px solid red;
 
 }
 
 .topcard {
     display: flex;
     flex-direction: column;
+    
     
 }
 
@@ -59,8 +72,8 @@ p {
 }
 
 .header-image {
-    width: 350px;
-    height: 125px;
+    max-width: 25%;
+    
     margin: auto;
 }
 
@@ -89,32 +102,37 @@ p {
 }
 
 .image-wrapper {
+    
     text-align: center;
 }
 
 .image-caption {
-    margin-top: 8px;
+    margin-top: 45px;
     font-size: 14px;
-    color: #555;
+    color: #1b1a1a;
 }
 
 .thirdcard {
+    
     display: flex;
     flex-direction: column;
-    background-color: #e5e7eb;
+    background-color: rgb(207, 194, 178);
     align-items: center;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
-    color: rgb(82, 73, 73);
+    color: rgb(99, 67, 67);
+    
 }
 
 .name {
     font-size: 16px;
     font-style: bold;
     color: darkblue;
+    margin-bottom: 45px;
+    margin-left: 34%;
 }
 
 .fourthcard {
