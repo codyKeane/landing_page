@@ -1,0 +1,21 @@
+.header {
+    background: #1f2937;
+    font-family: Besley, serif;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;   
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+  }
+
+  .topcard {
+    display: flex;
+    flex-direction: column;
+    
+  }
